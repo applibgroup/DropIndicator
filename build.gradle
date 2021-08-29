@@ -65,11 +65,7 @@ sonarqube {
     properties {
         property "sonar.projectKey", "applibgroup_DropIndicator"
         property "sonar.organization", "applibgroup"
-<<<<<<< HEAD
         property "sonar.host.url", "https://sonarcloud.io"
-=======
-        property "sonar.host.url", "http://sonarcloud.io"
->>>>>>> c8d33b859083e2fa95acbc593b38c198e9d254c3
         property "sonar.sources", "entry,dropindicator"
         property "sonar.java.binaries", "entry/build,dropindicator/build"
         property "sonar.java.checkstyle.reportPaths",
